@@ -50,5 +50,5 @@ setInterval(function () {
 }, 2000);
 
 app.listen(port, () => {
-    console.log(`Socket.IO server running at http://localhost:${port}/`)
+    console.log(`Listening: http://localhost:${port}/`)
 });
